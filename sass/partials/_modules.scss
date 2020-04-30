@@ -1,0 +1,41 @@
+.bg{
+    &-black{
+        background-color: $color-black;
+    }
+    &-orange{
+        background-color: $color-orange;
+    }
+}
+.border{
+    &-orange{
+        border-color: $color-orange;
+    }
+}
+.fit{
+    &-cover{
+        object-fit: cover;
+    }
+}
+.font{
+    &-menu{
+        font-family: $font-menu;
+    }
+    &-logo{
+        font-family: $font-logo;
+    }
+}
+.text{
+    &-orange{
+        color: $color-orange !important;
+    }
+    &-shadow{
+        text-shadow: $text-shadow-gray;
+    }
+}
+.z{
+    &-index{
+        &-top{
+            z-index: 100;
+        }
+    }
+}
