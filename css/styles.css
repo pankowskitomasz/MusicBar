@@ -1,97 +1,354 @@
-/* latin-ext */
-@font-face {
-  font-family: 'Akronim';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("Akronim Regular"), local("Akronim-Regular"), url(../fonts/fdN-9sqWtWZZlHRpygl7kWYN.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Akronim';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("Akronim Regular"), local("Akronim-Regular"), url(../fonts/fdN-9sqWtWZZlHRpygd7kQ.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Krona One';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("Krona One"), local("KronaOne-Regular"), url(../fonts/jAnEgHdjHcjgfIb1ZcUyOIWg7cU.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Krona One';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("Krona One"), local("KronaOne-Regular"), url(../fonts/jAnEgHdjHcjgfIb1ZcUyNoWg.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* line 1, ../sass/partials/_layout.scss */
-* {
-  box-sizing: border-box;
-}
-
-/* line 4, ../sass/partials/_layout.scss */
-body, html {
-  height: 100%;
-}
-
-/* line 8, ../sass/partials/_mixins.scss */
-.index-s1 {
-  min-height: 100vh;
-}
-
-/* line 8, ../sass/partials/_mixins.scss */
-.privacy-s1 {
-  min-height: 100vh;
-}
-
 /* line 2, ../sass/partials/_modules.scss */
-.bg-black {
-  background-color: #000;
-}
-/* line 5, ../sass/partials/_modules.scss */
-.bg-orange {
-  background-color: orange;
+.bg-dark-blue {
+  background-color: #004364;
 }
 
-/* line 10, ../sass/partials/_modules.scss */
-.border-orange {
-  border-color: orange;
+/* line 8, ../sass/partials/_modules.scss */
+.border-light-blue {
+  border-color: #00b6f5 !important;
+  color: #fff;
 }
 
 /* line 15, ../sass/partials/_modules.scss */
-.fit-cover {
-  object-fit: cover;
+.btn-green {
+  background-image: linear-gradient(180deg, #b8df6e, #066524);
+  border: none !important;
+  color: #fff;
+  text-shadow: 1px 1px 3px #066524;
 }
 
-/* line 20, ../sass/partials/_modules.scss */
-.font-menu {
-  font-family: "Krona One", sans-serif;
-}
-/* line 23, ../sass/partials/_modules.scss */
-.font-logo {
-  font-family: "Akronim", cursive;
+/* line 24, ../sass/partials/_modules.scss */
+.coming-soon-s1 {
+  background-position: center top;
 }
 
-/* line 28, ../sass/partials/_modules.scss */
-.text-orange {
-  color: orange !important;
+/* line 30, ../sass/partials/_modules.scss */
+.minh-25vh {
+  min-height: 25vh;
 }
-/* line 31, ../sass/partials/_modules.scss */
+/* line 33, ../sass/partials/_modules.scss */
+.minh-50vh {
+  min-height: 50vh;
+}
+/* line 36, ../sass/partials/_modules.scss */
+.minh-75vh {
+  min-height: 75vh;
+}
+/* line 39, ../sass/partials/_modules.scss */
+.minh-100vh {
+  min-height: 100vh;
+}
+
+/* line 45, ../sass/partials/_modules.scss */
+.navbar-brand {
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px 0px;
+  margin: 0px 10px;
+}
+
+/* line 54, ../sass/partials/_modules.scss */
+.opacity-7 {
+  opacity: 0.7;
+}
+/* line 57, ../sass/partials/_modules.scss */
+.opacity-8 {
+  opacity: 0.8;
+}
+
+/* line 63, ../sass/partials/_modules.scss */
+.text-blue {
+  color: #0051a1;
+}
+/* line 66, ../sass/partials/_modules.scss */
+.text-light-blue {
+  color: #00b6f5;
+}
+/* line 69, ../sass/partials/_modules.scss */
+.text-light-green {
+  color: #b8df6e;
+}
+/* line 72, ../sass/partials/_modules.scss */
 .text-shadow {
-  text-shadow: 1px 1px 1px #bbb;
+  text-shadow: 1px 1px 3px #004364;
 }
 
-/* line 37, ../sass/partials/_modules.scss */
-.z-index-top {
-  z-index: 100;
+@media all and (max-width: 767px) {
+  /* line 78, ../sass/partials/_modules.scss */
+  .header {
+    background-color: #004364;
+    opacity: 0.8;
+  }
+}
+/*landscape*/
+@media all and (orientation: landscape) {
+  /* line 87, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    padding-top: 5%;
+  }
+
+  /* line 91, ../sass/partials/_modules.scss */
+  .logo-cs {
+    width: 15%;
+  }
+
+  /* line 94, ../sass/partials/_modules.scss */
+  .text-cs {
+    font-size: 1.5em;
+  }
+}
+@media all and (orientation: landscape) and (max-width: 667px) {
+  /* line 101, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    background-image: url("../img/bg/coming_soon_sm_h.jpg");
+    background-size: cover;
+  }
+
+  /* line 106, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-image: url("../img/bg_index/index_s1_sm_h.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 112, ../sass/partials/_modules.scss */
+  .about-s1 {
+    background-image: url("../img/bg_about/about_s1_sm_h.jpg");
+    background-size: cover;
+    background-position: top left;
+  }
+  /* line 116, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-image: url("../img/bg_about/about_s2_sm_h.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 122, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-image: url("../img/bg_contact/contact_s1_sm_h.jpg");
+    background-size: cover;
+  }
+
+  /* line 127, ../sass/partials/_modules.scss */
+  .text-landscape-start {
+    text-align: left !important;
+  }
+}
+@media all and (orientation: landscape) and (min-width: 668px) {
+  /* line 135, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    background-image: url("../img/bg/coming_soon_lg_h.jpg");
+    background-size: cover;
+  }
+
+  /* line 140, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-image: url("../img/bg_index/index_s1_lg_h.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 146, ../sass/partials/_modules.scss */
+  .about-s1 {
+    background-image: url("../img/bg_about/about_s1_lg_h.jpg");
+    background-size: cover;
+    background-position: left center;
+  }
+  /* line 150, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-image: url("../img/bg_about/about_s2_lg_h.jpg");
+    background-size: cover;
+    background-position: top center;
+  }
+
+  /* line 156, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-image: url("../img/bg_contact/contact_s1_lg_h.jpg");
+    background-size: cover;
+  }
+}
+@media all and (orientation: landscape) and (min-width: 992px) {
+  /* line 164, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    background-image: url("../img/bg/coming_soon_lg_h.jpg");
+    background-size: cover;
+    padding-top: 7.5%;
+  }
+  /* line 168, ../sass/partials/_modules.scss */
+  .coming-soon .logo-cs {
+    width: 20%;
+  }
+  /* line 171, ../sass/partials/_modules.scss */
+  .coming-soon .text-cs {
+    font-size: 1.8em;
+  }
+}
+@media all and (orientation: landscape) and (min-width: 1367px) {
+  /* line 179, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    background-image: url("../img/bg/coming_soon_xxl_h.jpg");
+    background-size: cover;
+  }
+
+  /* line 184, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-image: url("../img/bg_index/index_s1_xl_h.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 190, ../sass/partials/_modules.scss */
+  .about-s1 {
+    background-image: url("../img/bg_about/about_s1_xl_h.jpg");
+    background-size: cover;
+    background-position: left center;
+  }
+  /* line 194, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-image: url("../img/bg_about/about_s2_xl_h.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 200, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-image: url("../img/bg_contact/contact_s1_xl_h.jpg");
+    background-size: cover;
+  }
+}
+/*portait*/
+@media all and (orientation: portrait) {
+  /* line 209, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    padding-top: 35%;
+  }
+  /* line 212, ../sass/partials/_modules.scss */
+  .coming-soon .logo-cs {
+    width: 70%;
+  }
+}
+@media all and (orientation: portrait) and (max-height: 667px) {
+  /* line 220, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    background-image: url("../img/bg/coming_soon_sm_v.jpg");
+    background-size: cover;
+  }
+
+  /* line 225, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-image: url("../img/bg_index/index_s1_sm_v.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 231, ../sass/partials/_modules.scss */
+  .about-s1 {
+    background-image: url("../img/bg_about/about_s1_sm_h.jpg");
+    background-size: cover;
+    background-position: top left;
+  }
+  /* line 235, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-image: url("../img/bg_about/about_s2_sm_h.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 241, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-image: url("../img/bg_contact/contact_s1_sm_v.jpg");
+    background-size: cover;
+  }
+}
+@media all and (orientation: portrait) and (min-height: 668px) {
+  /* line 249, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    background-image: url("../img/bg/coming_soon_lg_v.jpg");
+    background-size: cover;
+  }
+
+  /* line 254, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-image: url("../img/bg_index/index_s1_lg_v.jpg");
+    background-size: cover;
+    background-position: bottom right;
+  }
+
+  /* line 260, ../sass/partials/_modules.scss */
+  .about-s1 {
+    background-image: url("../img/bg_about/about_s1_lg_v.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+  /* line 264, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-image: url("../img/bg_about/about_s2_lg_v.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 270, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-image: url("../img/bg_contact/contact_s1_lg_v.jpg");
+    background-size: cover;
+  }
+}
+@media all and (orientation: portrait) and (min-height: 1367px) {
+  /* line 278, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    background-image: url("../img/bg/coming_soon_xxl_v.jpg");
+    background-size: cover;
+  }
+
+  /* line 283, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-image: url("../img/bg_index/index_s1_xl_v.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 289, ../sass/partials/_modules.scss */
+  .about-s1 {
+    background-image: url("../img/bg_about/about_s1_xl_v.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+  /* line 293, ../sass/partials/_modules.scss */
+  .about-s2 {
+    background-image: url("../img/bg_about/about_s2_xl_v.jpg");
+    background-size: cover;
+    background-position: top right;
+  }
+
+  /* line 299, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-image: url("../img/bg_contact/contact_s1_xl_v.jpg");
+    background-size: cover;
+  }
+}
+/*iphone-X correction*/
+@media all and (orientation: landscape) and (width: 812px) {
+  /* line 307, ../sass/partials/_modules.scss */
+  .ip-index-s1 {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    text-align: left !important;
+    width: 50% !important;
+  }
+
+  /* line 313, ../sass/partials/_modules.scss */
+  .ip-contact-s1 {
+    text-align: center !important;
+    width: 100% !important;
+  }
+}
+/*ipad-pro correction*/
+@media all and (orientation: portrait) and (height: 1366px) {
+  /* line 321, ../sass/partials/_modules.scss */
+  .ip-index-s1 {
+    margin-top: 20% !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
 }
