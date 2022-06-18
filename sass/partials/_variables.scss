@@ -4,52 +4,39 @@ $color__light-green: #b8df6e;
 $color__dark-green: #066524;
 $color__white: #fff;
 $color__light-blue: #00b6f5;
-
-$img__coming-soon--h:
-    "../img/bg/coming_soon_sm_h.jpg",
-    "../img/bg/coming_soon_lg_h.jpg",
-    "../img/bg/coming_soon_xxl_h.jpg";
-$img__coming-soon--v: 
-    "../img/bg/coming_soon_sm_v.jpg",
-    "../img/bg/coming_soon_lg_v.jpg",
-    "../img/bg/coming_soon_xxl_v.jpg";
-
-$img__index-s1--h:
-    "../img/bg_index/index_s1_sm_h.jpg",
-    "../img/bg_index/index_s1_lg_h.jpg",
-    "../img/bg_index/index_s1_xl_h.jpg";
-$img__index-s1--v: 
-    "../img/bg_index/index_s1_sm_v.jpg",
-    "../img/bg_index/index_s1_lg_v.jpg",
-    "../img/bg_index/index_s1_xl_v.jpg";
-
-$img__about-s1--h:
-    "../img/bg_about/about_s1_sm_h.jpg",
-    "../img/bg_about/about_s1_lg_h.jpg",
-    "../img/bg_about/about_s1_xl_h.jpg";
-$img__about-s1--v: 
-    "../img/bg_about/about_s1_sm_v.jpg",
-    "../img/bg_about/about_s1_lg_v.jpg",
-    "../img/bg_about/about_s1_xl_v.jpg";
-
-$img__about-s2--h:
-    "../img/bg_about/about_s2_sm_h.jpg",
-    "../img/bg_about/about_s2_lg_h.jpg",
-    "../img/bg_about/about_s2_xl_h.jpg";
-$img__about-s2--v: 
-    "../img/bg_about/about_s2_sm_v.jpg",
-    "../img/bg_about/about_s2_lg_v.jpg",
-    "../img/bg_about/about_s2_xl_v.jpg";
-
-$img__contact-s1--h:
-    "../img/bg_contact/contact_s1_sm_h.jpg",
-    "../img/bg_contact/contact_s1_lg_h.jpg",
-    "../img/bg_contact/contact_s1_xl_h.jpg";
-$img__contact-s1--v: 
-    "../img/bg_contact/contact_s1_sm_v.jpg",
-    "../img/bg_contact/contact_s1_lg_v.jpg",
-    "../img/bg_contact/contact_s1_xl_v.jpg";
-
+$bg__about-img: 
+    "../img/about/about-s1.jpg",
+    "",
+    "../img/about/about-s3.jpg",
+    "../img/about/about-s4.jpg",
+    "../img/about/about-s5.jpg";
+$bg__contact-img: 
+    "../img/contact/contact-s1.jpg",
+    "../img/contact/contact-s2.jpg",
+    "../img/contact/contact-s3.jpg";
+$bg__gallery-img: 
+    "../img/gallery/gallery-s1.jpg",
+    "",
+    "../img/gallery/gallery-s3.jpg";
+$bg__index-img: "../img/index/index-s1.jpg";
+$bg__whatson-img: 
+    "../img/whatson/whatson-s1.jpg",
+    "",
+    "../img/whatson/whatson-s3.jpg",
+    "../img/whatson/whatson-s4.jpg",
+    "../img/whatson/whatson-s5.jpg";
+$bg__classes:
+    "about",
+    "contact",
+    "gallery",
+    "index",
+    "whatson";
+$bg__img-arr: 
+    $bg__about-img,
+    $bg__contact-img,
+    $bg__gallery-img,
+    $bg__index-img,
+    $bg__whatson-img;
 $text__shadow: 1px 1px 3px $color__dark-blue;
 $text__shadow-green: 1px 1px 3px $color__dark-green;
-
+$footer__height: 31px;
