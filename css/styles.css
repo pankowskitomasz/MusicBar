@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "PermanentMarker";
+  src: url("../fonts/PermanentMarker-Regular.ttf");
+}
 /* line 2, ../sass/partials/_minh.scss */
 .minh-auto {
   min-height: auto;
@@ -449,7 +453,7 @@
   background-image: linear-gradient(180deg, #b8df6e, #066524);
   border: none !important;
   color: #fff;
-  text-shadow: 1px 1px 3px #066524;
+  text-shadow: 1px 1px 3px #333;
 }
 
 /* line 22, ../sass/partials/_modules.scss */
@@ -468,7 +472,7 @@
 
 /* line 35, ../sass/partials/_modules.scss */
 .text-blue {
-  color: #0051a1;
+  color: #015b65;
 }
 /* line 38, ../sass/partials/_modules.scss */
 .text-light-blue {
@@ -501,78 +505,84 @@
 }
 
 /* line 65, ../sass/partials/_modules.scss */
+h1, h2, h3, h4, h5, h6, .nav-link {
+  font-family: "PermanentMarker";
+  letter-spacing: 2px;
+}
+
+/* line 69, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
-/* line 68, ../sass/partials/_modules.scss */
+/* line 72, ../sass/partials/_modules.scss */
 nav {
   z-index: 10;
 }
 
 @media all and (max-width: 767px) {
-  /* line 74, ../sass/partials/_modules.scss */
+  /* line 78, ../sass/partials/_modules.scss */
   .about-s1, .about-s3, .about-s4 {
     background-blend-mode: multiply !important;
     background-color: #999 !important;
   }
-  /* line 75, ../sass/partials/_modules.scss */
+  /* line 79, ../sass/partials/_modules.scss */
   .about-s1 *, .about-s3 *, .about-s4 * {
     color: #fff !important;
     text-shadow: 1px 1px 3px #004364;
   }
 
-  /* line 84, ../sass/partials/_modules.scss */
+  /* line 88, ../sass/partials/_modules.scss */
   .contact-s1, .contact-s2 {
     background-blend-mode: multiply !important;
     background-color: #999 !important;
   }
-  /* line 85, ../sass/partials/_modules.scss */
+  /* line 89, ../sass/partials/_modules.scss */
   .contact-s1 *, .contact-s2 * {
     color: #fff !important;
     text-shadow: 1px 1px 3px #004364;
   }
 
-  /* line 94, ../sass/partials/_modules.scss */
+  /* line 98, ../sass/partials/_modules.scss */
   .gallery-s1, .gallery-s3 {
     background-blend-mode: multiply !important;
     background-color: #999 !important;
   }
-  /* line 95, ../sass/partials/_modules.scss */
+  /* line 99, ../sass/partials/_modules.scss */
   .gallery-s1 *, .gallery-s3 * {
     color: #fff !important;
     text-shadow: 1px 1px 3px #004364;
   }
 
-  /* line 104, ../sass/partials/_modules.scss */
+  /* line 108, ../sass/partials/_modules.scss */
   .index-s1 {
     background-blend-mode: multiply !important;
     background-color: #999 !important;
     background-position: left !important;
   }
-  /* line 105, ../sass/partials/_modules.scss */
+  /* line 109, ../sass/partials/_modules.scss */
   .index-s1 * {
     color: #fff !important;
     text-shadow: 1px 1px 3px #004364;
   }
 
-  /* line 115, ../sass/partials/_modules.scss */
+  /* line 119, ../sass/partials/_modules.scss */
   .whatson-s1, .whatson-s3, .whatson-s4 {
     background-blend-mode: multiply !important;
     background-color: #999 !important;
   }
-  /* line 116, ../sass/partials/_modules.scss */
+  /* line 120, ../sass/partials/_modules.scss */
   .whatson-s1 *, .whatson-s3 *, .whatson-s4 * {
     color: #fff !important;
     text-shadow: 1px 1px 3px #004364;
   }
 
-  /* line 125, ../sass/partials/_modules.scss */
+  /* line 129, ../sass/partials/_modules.scss */
   .navbar-toggler {
     background-color: #666;
     border-color: #333;
   }
-  /* line 129, ../sass/partials/_modules.scss */
+  /* line 133, ../sass/partials/_modules.scss */
   .navbar-nav {
     background-color: #666;
     border: 1px solid #333;
