@@ -62,6 +62,10 @@
         text-shadow: $text__shadow;
     }
 }
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "PermanentMarker";
+    letter-spacing: 2px;
+}
 textarea{
     resize: none;
 }
