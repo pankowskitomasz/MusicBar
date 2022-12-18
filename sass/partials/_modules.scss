@@ -83,6 +83,9 @@ nav{
             background-blend-mode: multiply !important;
             background-color: #999 !important;
         }
+        &-s1{
+            background-position-x: right!important;
+        }
     }
     .contact{
         &-s1,&-s2{
@@ -102,6 +105,9 @@ nav{
             }
             background-blend-mode: multiply !important;
             background-color: #999 !important;
+        }
+        &-s1{
+            background-position-x: right!important;
         }
     }
     .index{
@@ -123,6 +129,9 @@ nav{
             }
             background-blend-mode: multiply !important;
             background-color: #999 !important;
+        }
+        &-s1{
+            background-position-x: right!important;
         }
     }
     .navbar{

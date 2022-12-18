@@ -531,58 +531,70 @@ nav {
     color: #fff !important;
     text-shadow: 1px 1px 3px #004364;
   }
+  /* line 86, ../sass/partials/_modules.scss */
+  .about-s1 {
+    background-position-x: right !important;
+  }
 
-  /* line 88, ../sass/partials/_modules.scss */
+  /* line 91, ../sass/partials/_modules.scss */
   .contact-s1, .contact-s2 {
     background-blend-mode: multiply !important;
     background-color: #999 !important;
   }
-  /* line 89, ../sass/partials/_modules.scss */
+  /* line 92, ../sass/partials/_modules.scss */
   .contact-s1 *, .contact-s2 * {
     color: #fff !important;
     text-shadow: 1px 1px 3px #004364;
   }
 
-  /* line 98, ../sass/partials/_modules.scss */
+  /* line 101, ../sass/partials/_modules.scss */
   .gallery-s1, .gallery-s3 {
     background-blend-mode: multiply !important;
     background-color: #999 !important;
   }
-  /* line 99, ../sass/partials/_modules.scss */
+  /* line 102, ../sass/partials/_modules.scss */
   .gallery-s1 *, .gallery-s3 * {
     color: #fff !important;
     text-shadow: 1px 1px 3px #004364;
   }
+  /* line 109, ../sass/partials/_modules.scss */
+  .gallery-s1 {
+    background-position-x: right !important;
+  }
 
-  /* line 108, ../sass/partials/_modules.scss */
+  /* line 114, ../sass/partials/_modules.scss */
   .index-s1 {
     background-blend-mode: multiply !important;
     background-color: #999 !important;
     background-position: left !important;
   }
-  /* line 109, ../sass/partials/_modules.scss */
+  /* line 115, ../sass/partials/_modules.scss */
   .index-s1 * {
     color: #fff !important;
     text-shadow: 1px 1px 3px #004364;
   }
 
-  /* line 119, ../sass/partials/_modules.scss */
+  /* line 125, ../sass/partials/_modules.scss */
   .whatson-s1, .whatson-s3, .whatson-s4 {
     background-blend-mode: multiply !important;
     background-color: #999 !important;
   }
-  /* line 120, ../sass/partials/_modules.scss */
+  /* line 126, ../sass/partials/_modules.scss */
   .whatson-s1 *, .whatson-s3 *, .whatson-s4 * {
     color: #fff !important;
     text-shadow: 1px 1px 3px #004364;
   }
+  /* line 133, ../sass/partials/_modules.scss */
+  .whatson-s1 {
+    background-position-x: right !important;
+  }
 
-  /* line 129, ../sass/partials/_modules.scss */
+  /* line 138, ../sass/partials/_modules.scss */
   .navbar-toggler {
     background-color: #666;
     border-color: #333;
   }
-  /* line 133, ../sass/partials/_modules.scss */
+  /* line 142, ../sass/partials/_modules.scss */
   .navbar-nav {
     background-color: #666;
     border: 1px solid #333;
